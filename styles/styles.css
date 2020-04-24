@@ -10,6 +10,7 @@ body {
     /*grid styles*/
     grid-template-columns : repeat(3, 1fr);
     grid-template-rows    : 100px 200px 400px;
+    background-color : lightskyblue;
 }
 
 .bigText{
@@ -24,17 +25,23 @@ text{
     text-align : center;
 }
 
-body div:nth-child(1){
+body div:nth-of-type(1){
     grid-column : 2 / 3;
     grid-row    : 1 / 2;
+    background-color : white;
+    border           : 2px solid black;
 }
 
-body div:nth-child(2){
+body div:nth-of-type(2){
     grid-column : 2 / 3;
     grid-row    : 2 / 3;
+    background-color : white;
+    border           : 2px solid black;
 }
 
-body div:nth-child(3){
+body div:nth-of-type(3){
     grid-column : 2 / 3;
     grid-row    : 3 / 4;
+    background-color : white;
+    border           : 2px solid black;
 }
