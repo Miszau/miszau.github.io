@@ -9,7 +9,7 @@ body {
     min-height : 100%;
     /*grid styles*/
     grid-template-columns : repeat(3, 1fr);
-    grid-template-rows    : 100px, 200px, 400px;
+    grid-template-rows    : 100px 200px 400px;
 }
 
 .bigText{
